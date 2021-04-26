@@ -19,12 +19,14 @@ Statistical analysis was also performed for plays in the U.S. comparing the tren
 
 ### Analysis of Campaign Outcomes Based on Launch Date
 Kickstarter campaigns with successful, canceled and failed outcomes were analyzed for trends based on the campaign launch date.  Trends identifed with successful outcomes were analyzed for both overall US campaigns as well as specifically for the Theater category and found to have similar trends.  The campaign outcomes specifically for theater campaigns were analyzed and plotted in the following chart: Theater Outcomes Based on Launch Date
+
 ![Theater_Outcomes_vs_Launch](Resources/Theater_Outcomes_vs_Launch.png) 
 
 This plot shows that campaigns started in early summer months (May, June) correlate to more successful campaign outcomes while the month of December shows the lowest successful outcome count where the success and failure count of campaigns are nearly equal.  Data was not available for Canceled theater campaigns in the month of October.
 
 ### Analysis of Campaign Outcomes Based on Goals
-In order to determine the effect of the funding goal amount on campaign success, we collected the outcome and goal data for all theater play campaigns in the Kickstarter dataset. The count of an outcome (successful, failed, or canceled) is expressed as a percentage of the total count and plotted against Goal amount which was divided into 12 groups based on value range in the following chart: Outcomes Based on Goal
+In order to determine the effect of the funding goal amount on campaign success, the outcome and goal data was collected for all theater play campaigns in the Kickstarter dataset. The count of an outcome (successful, failed, or canceled) is expressed as a percentage of the total count and plotted against Goal amount which was divided into 12 groups based on value range in the following chart: Outcomes Based on Goal
+
 ![Outcomes_vs_Goals.png](Resources/Outcomes_vs_Goals.png)
 
 This plot illustrates a negative trend for campaign goal amounts and percent of campaign successes. The highest percentage of successful campaigns and the lowest failures fall in the range less than US$5000 whereas the highest percentage of failed campaigns and lowest success (success rate actually falls to zero) above US$45,000.
